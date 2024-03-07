@@ -52,6 +52,6 @@
   }
 
   .menuItems.show {
-    display: flex; /* Show the navigation buttons when the menu is open */
+    display: flex; 
   }
 }
