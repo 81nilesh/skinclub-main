@@ -1,3 +1,23 @@
+/* components/PaymentForm.module.css */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.leftContainer {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.rightContainer {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 .main_container {
   /* Add this property to display flex and arrange child elements in a column */
   display: flex;
@@ -6,7 +26,6 @@
 
 .mainContainer {
   background-color: white;
-
   margin: 50px;
   width: 47%;
 }
@@ -63,6 +82,7 @@
 .paymentDetails {
   margin-top: 30px; /* Add margin to separate from the previous section */
 }
+
 .PayMentBody form {
   padding: 60px;
   margin-top: -40px;
@@ -73,7 +93,6 @@
   flex-wrap: wrap;
 }
 
-/* components/PaymentForm.module.css */
 .row {
   display: flex;
   justify-content: space-between;
@@ -83,8 +102,6 @@
 .row input {
   width: 250px;
   height: 43px;
-  top: 466px;
-  left: 655px;
   border: 0.5px solid #ccc;
   border-radius: 20px;
   padding: 20px;
@@ -100,50 +117,16 @@
 }
 
 .buttons {
-  margin-top: 20px;
+  margin-top: 20px; /* Add margin to separate from the previous section */
+}
 
-  /* Add margin to separate from the previous section */
+.saveButton,
+.confirmButton {
+  width: 100%; /* Make buttons full-width */
 }
 
 .saveButton {
-  width: 184px;
-  height: 48px;
-  background-color: white;
-  top: 672px;
-  left: 294px;
-  border-radius: 24px;
-  border: 0.5px solid #ccc;
-  margin: 10px;
-}
-
-.confirmButton {
-  width: 184px;
-  background-color: black;
-  height: 48px;
-  top: 672px;
-  left: 493px;
-  color: white;
-  border-radius: 24px;
-}
-
-/* Paymentform.module.css */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.leftContainer {
-  display: flex;
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box; /* Include padding in the width calculation */
-}
-
-.rightContainer {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+  margin-bottom: 10px; /* Add margin between buttons */
 }
 
 /* Mobile styles */
