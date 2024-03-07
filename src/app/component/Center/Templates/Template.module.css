@@ -199,3 +199,9 @@
     flex: 1;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .templateContent {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
