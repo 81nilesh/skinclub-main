@@ -13,17 +13,17 @@ function Minitemplate() {
         </div>
         <div>
           <label htmlFor="uname">Invoice Number</label>
-          <input type="text" placeholder="Enter Username" name="uname" className={Template.input} required/>
+          <input type="text" placeholder="Enter Username" name="uname" className={Template.input} required />
         </div>
         <div>
           <label htmlFor="uname">Add a Treatment</label>
           <select type="text" placeholder="Enter Username" name="uname" className={Template.input} required>
-          <option value="Select the person to whom you will send this">Select the person to whom you will send this</option>
+            <option value="Select the person to whom you will send this">Select the person to whom you will send this</option>
           </select>
         </div>
         <div>
           <label htmlFor="uname">Select Date</label>
-          <input type="text" placeholder="Enter Username" name="uname" className={Template.input} required/>
+          <input type="text" placeholder="Enter Username" name="uname" className={Template.input} required />
         </div>
 
         <div className="CenterDiv">
@@ -52,7 +52,7 @@ function Minitemplate() {
                 <button>Remove</button>
               </div>
             </div>
-        
+
             <div className="componentoftable secondUi">
               <div>
                 <p>Template</p>
@@ -138,7 +138,7 @@ function Minitemplate() {
               <div>
                 <div className="textui">$1160</div>
               </div>
-              
+
             </div>
             <div className="componentoftable1 textboxui">
               <div>
@@ -159,9 +159,9 @@ function Minitemplate() {
               <div>
                 <div className="textui">$1160</div>
               </div>
-              
+
             </div>
-            
+
             <div className="componentoftable1 textboxui2">
               <div>
                 <button>Add</button>
@@ -174,34 +174,34 @@ function Minitemplate() {
               <div className="sidebarbottom">
                 <span>Add Notes/ Terms</span>
                 <div className="textuiSidebar"></div>
-                </div>  
+              </div>
               <div className="rightbarbottom">
                 <div>
                   <span>Subtotal</span>
                   <span>$540.00</span>
-                </div>  
+                </div>
                 <div>
-                  <span>Transaction Fee 5%</span>  
-                  <span className="textlikeui">$00.00</span>  
-                </div> 
-              
+                  <span>Transaction Fee 5%</span>
+                  <span className="textlikeui">$00.00</span>
+                </div>
+
                 <div>
-                  <span>Transaction Fee 5%</span>  
-                  <span className="textlikeui">$00.00</span>  
-                </div> 
-                 
+                  <span>Transaction Fee 5%</span>
+                  <span className="textlikeui">$00.00</span>
+                </div>
+
                 <div>
-                  <span>total</span>  
-                  <span >$540.00</span>  
-                </div>  
-              </div> 
-               
+                  <span>total</span>
+                  <span >$540.00</span>
+                </div>
+              </div>
+
             </div>
           </div>
-        {/* </div> */}
-      </div>
+          {/* </div> */}
+        </div>
 
-        
+
       </div>
     </>
   )

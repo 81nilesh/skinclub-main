@@ -24,10 +24,11 @@ const NavigationBar = ({ setDisplayedComponent }) => {
       <div className={`${styles.menuItems} ${showMenu ? styles.show : ''}`}>
         <button onClick={() => handleComponentChange('CreateInvoice')}>Create Invoice</button>
         <button onClick={() => handleComponentChange('Invoice')}>Invoice</button>
-        <button onClick={() => handleComponentChange('Center')}>Center</button>
         <button onClick={() => handleComponentChange('EditInvoice')}>Edit Invoice</button>
-        <button onClick={() => handleComponentChange('Payment')}>Payment</button>
+        <button onClick={() => handleComponentChange('Center')}>Center</button>
+
         <button onClick={() => handleComponentChange('Payments')}>Payments Form</button>
+        <button onClick={() => handleComponentChange('Payment')}>Payment</button>
         <button onClick={() => handleComponentChange('PopUp')}>PopUp</button>
       </div>
     </div>
