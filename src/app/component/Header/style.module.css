@@ -40,6 +40,7 @@
   color: #4c4d4f;
 }
 
+/* mobile responsive css */
 @media screen and (max-width: 768px) {
   .titleImage {
     margin-bottom: 10px;
