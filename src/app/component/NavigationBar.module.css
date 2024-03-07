@@ -1,0 +1,57 @@
+/* NavigationBar.module.css */
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+.menuIcon {
+  cursor: pointer;
+  display: none; /* Hide the hamburger menu icon by default */
+}
+
+.menuIconLine {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.open {
+  transform: rotate(-45deg);
+}
+
+.menuItems {
+  display: flex;
+}
+
+.menuItems button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* Media Queries for Mobile Responsive Layout */
+@media screen and (max-width: 768px) {
+  .menuIcon {
+    display: block; /* Show the hamburger menu icon on small screens */
+  }
+
+  .menuItems {
+    display: none; /* Hide the regular navigation buttons on small screens */
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+
+  .menuItems.show {
+    display: flex; /* Show the navigation buttons when the menu is open */
+  }
+}

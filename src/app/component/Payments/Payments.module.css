@@ -1,0 +1,161 @@
+.main_container {
+    /* Add this property to display flex and arrange child elements in a column */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mainContainer{
+    background-color: white;
+  
+    margin: 50px;
+    width: 47%;
+  }
+  
+  
+  
+  .payMethod {
+    margin-bottom: 10px; /* Add margin to separate from the next section */
+  }
+  
+  .heading h2{ 
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    color: #4C4D4F;
+  }
+  
+  .heading p {
+    margin-left: 50px;
+  
+  }
+  
+  
+  .payMethod h2 {
+  
+  
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    color: #4C4D4F;
+    text-align: left;
+    margin-left: -10px;
+    padding: 15px;
+  }
+  
+  .payOptions {
+    display: flex;
+    flex-wrap: wrap; /* Allow options to wrap to the next line if needed */
+  }
+  
+  .payOptions input,
+  .payOptions label {
+    margin-right: 15px; /* Add margin between radio buttons and labels */
+  }
+  
+  .paymentDetails h2{
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .paymentDetails {
+  
+  
+    margin-top: 30px; /* Add margin to separate from the previous section */
+  }
+  .PayMentBody form {
+    padding: 60px;
+    margin-top: -40px;
+  }
+  
+  .detailsInput {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* components/PaymentForm.module.css */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .row input {
+    width: 250px;
+    height: 43px;
+    top: 466px;
+    left: 655px;
+    border: 0.5px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .detailsInput div {
+    width: 95%; /* Each detail input takes the full width */
+    margin-bottom: 15px; /* Add margin between detail inputs */
+  }
+  
+  .termsPara {
+    margin-top: 20px; /* Add margin to separate from the previous section */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  
+    /* Add margin to separate from the previous section */
+  }
+  
+  .saveButton {
+    width: 184px;
+    height: 48px;
+    background-color: white;
+    top: 672px;
+    left: 294px;
+    border-radius: 24px;
+    border: 0.5px solid #ccc;
+    margin: 10px;
+  
+  }
+  
+  .confirmButton {
+    width: 184px;
+    background-color: black;
+    height: 48px;
+    top: 672px;
+    left: 493px;
+    color: white;
+    border-radius: 24px;
+  }
+  
+  
+  /* Paymentform.module.css */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .leftContainer {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .rightContainer {
+  
+    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  

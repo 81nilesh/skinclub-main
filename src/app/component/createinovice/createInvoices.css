@@ -1,0 +1,225 @@
+/* src/styles/CreateInvoice.css */
+
+/* Container styles */
+.create-invoice-container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    /* background-color: white; */
+    padding: 30px;
+    margin: 25px;
+    margin-top: -16px;
+    margin-left: -20px;
+   
+}
+
+/* Container styles */
+.invoice-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+    margin-top: 20px;
+    width: 82%;
+  }
+
+/* Headings styles */
+.create-invoice-container h1,
+.create-invoice-container h2 {
+    text-align: left;
+}
+
+.create-invoice-container h2 {
+ 
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.create-invoice-container h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    color: #4C4D4F;
+}
+
+ 
+
+/* Card styles */
+.invoice-card {
+    width: 650px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+
+/* Table styles */
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+.invoice-table th, .invoice-table td {
+    border: 1px solid #ddd;
+    padding: 11px;
+    padding-inline-start: 30px;
+    padding-inline-end: 19px;
+    text-align: center;
+    font-family: Cabin;
+    color: #4C4D4F;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+
+
+
+/* Button styles */
+.view-more-button {
+    /* background-color: #007bff; */
+    color: #4C4D4F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    display: block; /* Ensure it takes the full width */
+    text-align: center;
+    font-family: Cabin;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+
+
+}
+
+
+/* Search bar styles */
+.search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    background-color: white;
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.date-sort-dropdown {
+    width: 25%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* src/styles/createInvoices.css */
+
+.create-invoice-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Adjust as needed */
+  }
+  
+ 
+  
+  .preview-invoice-container {
+    /* Add styles to position it on the right side */
+    /* For example: */
+    width: 40%; /* Adjust the width as needed */
+    margin-left: 20px; /* Adjust the margin as needed */
+  }
+  
+
+
+.in-progress-cell {
+    background-color: #F1B34A;
+    border-radius: 40px;
+    padding: 5px;
+   
+   
+  }
+  
+  .cancelled-cell {
+    background-color: #FFF9F1; 
+    border-radius: 40px;
+    padding: 5px;
+  }
+  
+  .completed-cell {
+    background-color: #36C490; 
+    border-radius: 40px;
+    padding: 5px;
+  }
+  
+
+  /* responsive code  */
+
+  /* Add this media query to adjust styles for tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+    .create-invoice-container {
+      flex-direction: column;
+      margin: 10px;
+    }
+  
+    .invoice-table th, .invoice-table td {
+      padding: 8px;
+    }
+  
+    .search-bar {
+      width: 100%;
+    }
+  
+    .date-sort-dropdown {
+      width: 100%;
+    }
+  
+    .view-more-button {
+      width: 100%;
+    }
+  }
+  
+  /* Add additional media queries for smaller devices if needed */
+
+  
+  /* Add this media query to adjust styles for tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+    .invoice-container {
+      flex-direction: column;
+      align-items: stretch;
+      width: 100%;
+    }
+  
+    .invoice-card {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .preview-invoice-container {
+      width: 100%;
+      margin-left: 0; /* Remove margin for small devices */
+    }
+  }
+  
+  /* Add additional media queries for smaller devices if needed */
+  
+  

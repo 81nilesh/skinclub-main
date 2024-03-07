@@ -1,0 +1,186 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.popup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  width: 35%;
+  height: 65%;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+h1 {
+  color: #36c490;
+}
+
+h3 {
+  margin: 10px auto;
+}
+
+.close-btn {
+  width: 152px;
+  height: 33px;
+  top: 766px;
+  left: 716px;
+  /* padding: 10px 10px; */
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.popup-content1 {
+  /* Your existing styles */
+  text-align: center; /* Center align all content */
+  justify-content: center;
+}
+
+p::before {
+  content: "\00a0"; /* Add space before the content of <p> tags */
+}
+p {
+  /* justify-content: start; */
+  text-align: start;
+}
+span {
+  text-align: end;
+}
+
+.point {
+  width: 117px;
+  height: 36px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  padding: 8px, 10px, 8px, 10px;
+  margin-top: 8px;
+}
+
+.ul-container {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+.ul-container1 {
+  margin-top: 45px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.ul-container2 {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+.cen {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.par {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* PopUp.css */
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.popup-content1 {
+  margin-bottom: 10px;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.par {
+  text-align: center;
+}
+
+.point {
+  display: inline-block;
+}
+
+.cen {
+  display: flex;
+  align-items: center;
+}
+
+/* .close-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+} */
+
+/* Media Queries for Mobile Responsive Layout */
+@media screen and (max-width: 768px) {
+  .popup-content {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .popup-content1 {
+    font-size: 16px;
+  }
+}
+.close-btn:first-child {
+  margin-left: 0; /* Remove margin from the first button */
+}
+.close-btn {
+  flex: 1; /* Equal width for both buttons */
+  padding: 10px;
+  /* background-color: #007bff; */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px; /* Add space between buttons */
+}

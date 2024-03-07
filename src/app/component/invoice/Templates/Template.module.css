@@ -1,0 +1,212 @@
+.template {
+  width: 72%;
+  background-color: #ffff;
+}
+.templateNavigation {
+  border-bottom: 1px solid #4c4d4f33;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.templateNavigation > div {
+  color: #acaeb1;
+}
+.templateNavigation > div {
+  margin: 5%;
+}
+.templateNavigation > div:nth-child(2) {
+  border-bottom: 2px solid;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+.mainTemplateCode {
+  display: flex;
+  flex-wrap: wrap;
+}
+.templateContent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  /* background-color: aliceblue; */
+  justify-content: space-around;
+}
+.templateContentWithData {
+  width: 23%;
+  min-height: 224.46px;
+  margin: 4px;
+  border: 1px solid #4c4d4f2b;
+  border-radius: 5px;
+}
+@media (max-width: 980px) {
+  .template {
+    width: 100%;
+    background-color: #fff9f1;
+  }
+}
+@media (max-width: 480px) {
+  .templateContentWithData {
+    width: 31%;
+  }
+}
+.headerImageForTemplate {
+  width: 100%;
+}
+.headerImageForTemplate > img {
+  width: 40%;
+  object-fit: cover;
+}
+.mainline {
+  display: flex;
+  padding-left: 5%;
+}
+.mainline > span {
+  font-size: 6px;
+}
+.mainline > div {
+  width: 70%;
+  padding-top: 2%;
+  padding-left: 7px;
+}
+.mainline > div > div {
+  border-bottom: 1px solid #4c4d4f;
+}
+
+.templateName {
+  padding-left: 5%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+}
+.templateName > b {
+  margin-top: 5%;
+  width: 50%;
+  font-size: 7px;
+}
+.templateBlackBox {
+  margin-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+}
+.blackBoxHeader {
+  border: 1px solid #000000;
+  background-color: #000000;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.blackBoxHeader > ul {
+  width: 100%;
+}
+.blackBoxHeader > ul > li {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 3px;
+  color: #ffff;
+}
+.blackBoxHeader > ul > li > span:first-child {
+  width: 60%;
+}
+.BoxContent > ul {
+  width: 100%;
+  border: 1px solid #4c4d4f33;
+  padding-bottom: 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.BoxContent > ul > li {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 7px;
+  margin-top: 10px;
+}
+.BoxContent > ul > li > li:first-child {
+  width: 60%;
+}
+.subTotal {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid #d2cdcd3b;
+  padding-bottom: 4px;
+}
+
+.subTotal > div {
+  width: 50%;
+}
+.subTotal > div > ul {
+  width: 100%;
+}
+.subTotal > div > ul > li {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 7px;
+  margin-top: 3px;
+}
+.totalSum {
+  margin: 6px;
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 7px;
+}
+.totalSum > li {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.totalSum > li > span > b {
+  font-weight: 600;
+}
+.notes {
+  width: 100%;
+  height: 30px;
+  background-color: #d2cdcd3b;
+  font-size: 5px;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+.Forms {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Forms > div {
+  width: 45%;
+}
+.Forms > div > label {
+  color: #00000080;
+  font-size: 12px;
+}
+.input {
+  width: 100%;
+  height: 43px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* new  cssssss */
+
+@media screen and (max-width: 768px) {
+  .templateNavigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .templateNavigation div {
+    margin-bottom: 10px;
+  }
+}

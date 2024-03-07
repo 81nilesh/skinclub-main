@@ -1,0 +1,179 @@
+.center {
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+}
+
+.template {
+    width: 60%;
+    background-color: #ffff;
+}
+
+/* dd */
+.uiPayment {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+}
+
+.gole {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #4C4D4F33;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gole:first-child {
+    background-color: #36C490;
+
+}
+
+.gole:nth-child(even) {
+    background-color: #4C4D4F;
+    color: #ffff;
+
+}
+
+.line {
+    width: 20%;
+    border-bottom: 3px solid #4C4D4F33;
+
+}
+
+/* Style the Payment body */
+.PayMent_body {
+    margin: 5%;
+    margin-top: 2%;
+}
+
+/* Style the Payment Method section */
+
+.pay_method h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #4C4D4F;
+
+}
+
+.pay_options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    color: #00000080;
+    font-size: 400;
+
+}
+
+.savedCard {
+    color: #4C4D4F;
+    margin-top: 5%;
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.visaMain {
+    width: 100%;
+    border: 1px solid #4C4D4F;
+    height: 100px;
+    display: flex;
+    margin-top: 5%;
+}
+
+.radiobutton {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visaImg {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.accountDetails {
+    width: 60%;
+    color: #4C4D4F;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5%;
+    justify-content: space-around;
+
+}
+
+.accountDetails>div {
+    margin: 2%;
+}
+
+.downButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.downButton>div {
+    width: 184px;
+    height: 48px;
+    top: 672px;
+    left: 549px;
+    border-radius: 24px;
+    border: 1px solid #4C4D4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 100%;
+    margin-top: 10%;
+}
+.TwoButton{
+    display: flex;
+    margin: 5%;
+}
+.TwoButton>div{
+    width: 134px;
+    height: 48px;
+    top: 672px;
+    left: 549px;
+    border-radius: 24px;
+    border: 1px solid #4C4D4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    margin: 2%;
+    font-size: 12px;
+}
+.TwoButton>div:first-child{
+    background-color: #ffff;
+    color: #000;
+}
+@media (max-width:980px) {
+    .center {
+        flex-direction: column;
+    }
+    .template{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,15 @@
+/* src/styles/Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 140vh; /* Make sure the container takes the full height of the viewport */
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1; /* Allow the main content to take the remaining space */
+  }
+  
+  /* Add any additional styles you need */
+  
