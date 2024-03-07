@@ -1,179 +1,183 @@
-
 .App {
-    text-align: center;
-  }
-  .CenterDiv {
-    width: 100% !important;
-    padding: 5%;
-   
-  }
-  .bgDiv {
+  text-align: center;
+}
+.CenterDiv {
+  width: 100% !important;
+  padding: 5%;
+}
+.bgDiv {
+  width: 100%;
+  padding: 2%;
+}
+.componentoftable {
+  background: #f8f8f8;
+  border: 1px solid#000;
+  width: 96%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  border-bottom: none;
+  margin-top: 5%;
+}
+.componentoftable > div {
+  background: #f8f8f8;
+  width: 30%;
+  color: #00000080;
+}
 
-  
-    width: 100%;
-    padding: 2%;
-  }
-  .componentoftable {
-    background: #f8f8f8;
-    border: 1px solid#000;
-    width: 96%;
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-around;
-    border-bottom: none;
-    margin-top: 5%;
-  }
-  .componentoftable > div {
-    background: #f8f8f8;
-    width: 30%;
-    color: #00000080;
-  }
-  
-  .componentoftable1 {
-    background: #f8f8f8;
-    border: 1px solid#000;
-    width: 96%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-top: none;
-  }
-  .componentoftable1 > div {
-    background: #f8f8f8;
-    width: 30%;
-    height: 50px;
-    padding-left: 2%;
-  }
-  
-  .componentoftable1 > div > p {
-    background: #f8f8f8;
-    font-weight: 800;
-  }
-  .componentoftable1 > div > button {
-    width: 108px;
-    height: 38px;
-    top: 566px;
-    left: 673px;
-    margin-right: 12px;
-    border-radius: 12px;
-    background: #000000;
-    color: #fff;
-  }
-  /* .componentoftable1>div:nth-child(1){
+.componentoftable1 {
+  background: #f8f8f8;
+  border: 1px solid#000;
+  width: 96%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: none;
+}
+.componentoftable1 > div {
+  background: #f8f8f8;
+  width: 30%;
+  height: 50px;
+  padding-left: 2%;
+}
+
+.componentoftable1 > div > p {
+  background: #f8f8f8;
+  font-weight: 800;
+}
+.componentoftable1 > div > button {
+  width: 108px;
+  height: 38px;
+  top: 566px;
+  left: 673px;
+  margin-right: 12px;
+  border-radius: 12px;
+  background: #000000;
+  color: #fff;
+}
+/* .componentoftable1>div:nth-child(1){
     width: 40%;
   }
   .componentoftable1>div:nth-child(2){
     width: 20%;
   } */
-  .componentoftable1 > div:last-child {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-  }
-  
-  .componentoftable1 > div > button:last-child {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid red;
-    color:red ;
-    /* margin-right: 2%; */
-  }
-  .hrline {
-    background: #f8f8f8;
-    width: 96%;
-    padding: 2%;
-    border: 1px solid #000000;
-    border-top: none;
-    border-bottom: none;
-    /* padding-top: 0%;
+.componentoftable1 > div:last-child {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.componentoftable1 > div > button:last-child {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid red;
+  color: red;
+  /* margin-right: 2%; */
+}
+.hrline {
+  background: #f8f8f8;
+  width: 96%;
+  padding: 2%;
+  border: 1px solid #000000;
+  border-top: none;
+  border-bottom: none;
+  /* padding-top: 0%;
     padding-bottom: 0%; */
-  }
-  
-  .secondUi {
-    width: 96%;
-    padding: 2%;
-  }
-  
-  .textboxui {
-    border-bottom: none;
-  }
-  .textui {
-    height: 40px;
-    top: 677px;
-    left: 316px;
-    border: 0.5px solid #4c4d4f33;
-    background: #ffffff;
-    font-weight: 900;
+}
+
+.secondUi {
+  width: 96%;
+  padding: 2%;
+}
+
+.textboxui {
+  border-bottom: none;
+}
+.textui {
+  height: 40px;
+  top: 677px;
+  left: 316px;
+  border: 0.5px solid #4c4d4f33;
+  background: #ffffff;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4%;
+  padding-right: 12%;
+}
+.textboxui > div:last-child {
+  width: 30%;
+  height: 50px;
+  padding-left: 2%;
+  display: block;
+  flex-direction: column;
+}
+
+.textboxui2 {
+  width: 96%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2%;
+}
+.textboxui2 > div:last-child {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.bottomui {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebarbottom {
+  width: 30%;
+  color: #00000080;
+  margin: 5px;
+}
+.rightbarbottom {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textuiSidebar {
+  width: 340px;
+  height: 48px;
+  top: 1037px;
+  left: 292px;
+  border-radius: 7px;
+  border: 0.5px solid #4c4d4f;
+  background: #ffffff;
+}
+.rightbarbottom > div {
+  align-items: center;
+  width: 96%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+}
+.textlikeui {
+  background: #ffffff;
+  border: 0.5px solid #4c4d4f;
+  width: 50%;
+  padding: 2%;
+  border-radius: 4%;
+  display: flex;
+  justify-content: flex-end;
+}
+.rightbarbottom > div:last-child {
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+  .Forms {
+    /* Add mobile styles here */
+    /* For example, you can stack the elements vertically */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 4%;
-    padding-right: 12%;
-  }
-  .textboxui > div:last-child {
-    width: 30%;
-    height: 50px;
-    padding-left: 2%;
-    display: block;
     flex-direction: column;
   }
-  
-  .textboxui2 {
-    width: 96%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 2%;
-  }
-  .textboxui2 > div:last-child {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-  }
-  
-  .bottomui {
-    width: 100%;
-    padding: 5%;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .sidebarbottom {
-    width: 30%;
-    color: #00000080;
-    margin: 5px;
-  
-  }
-  .rightbarbottom {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .textuiSidebar {
-    width: 340px;
-    height: 48px;
-    top: 1037px;
-    left: 292px;
-    border-radius: 7px;
-    border: 0.5px solid #4C4D4F;
-    background: #ffffff;
-  }
-  .rightbarbottom >div{
-    align-items: center;
-    width: 96%;
-    display: flex;
-    justify-content: space-around;
-    padding: 2%;
-  }
-  .textlikeui{
-    background: #FFFFFF;
-    border: 0.5px solid #4C4D4F;
-    width: 50%;
-    padding: 2%;
-    border-radius: 4%;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .rightbarbottom >div:last-child{
-    font-weight: 900;
-  }
+}
