@@ -10,7 +10,6 @@ function PreviewInvoice() {
           <b><img src="/pencil.png" alt="/printff.png" /></b>
           <b><img src="/printff.png" alt="/printff.png" /></b>
           </span>
-
       </div>
       <div className={Preview.templateContent}>
         <div className={Preview.templateContentWithData}>
@@ -21,7 +20,6 @@ function PreviewInvoice() {
             <span>SUMMARY</span>
             <div>
               <div></div>
-
             </div>
           </div>
           <div className={Template.templateName}>

@@ -1,5 +1,5 @@
 // pages/index.js or Home.js
-'use client'
+'use client';
 import React, { useState } from 'react';
 import Header from "./component/Header/Header";
 import Sidebar from "./component/sidebar/sidebar";
