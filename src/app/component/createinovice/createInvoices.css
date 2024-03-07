@@ -158,7 +158,7 @@
 @media only screen and (max-width: 768px) {
   .create-invoice-container {
     flex-direction: column;
-    margin: 10px;
+    /* margin: 10px; */
   }
 
   .invoice-table th,
@@ -224,6 +224,6 @@
   }
 
   .view-more-button {
-    width: auto;
+    /* width: auto; */
   }
 }

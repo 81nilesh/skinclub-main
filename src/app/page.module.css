@@ -1,4 +1,16 @@
-.mainStyle{
-display: flex;
+.mainStyle {
+  display: flex;
+}
 
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  /* Adjust layout for smaller screens */
+  .mainStyle {
+    flex-direction: column;
+  }
+
+  /* Reduce width of sidebar for smaller screens */
+  .sidebar {
+    width: 100%; /* Occupy full width */
+  }
 }

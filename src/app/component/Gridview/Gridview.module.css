@@ -96,3 +96,47 @@
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
 }
+
+/* Add mobile responsive styles here */
+@media screen and (max-width: 768px) {
+  .mainGridview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .searchBar {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .gridItem {
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .additionalContent {
+    width: 80%;
+  }
+
+  .signatureTitle {
+    margin-bottom: 10px;
+  }
+
+  .textArea {
+    margin-bottom: 10px;
+  }
+
+  .saveButton {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .searchBar {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}

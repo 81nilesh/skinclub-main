@@ -159,3 +159,39 @@
     margin-bottom: 20px; /* Add some space between containers */
   }
 }
+@media only screen and (max-width: 600px) {
+  .heading h2 {
+    font-size: 1.2rem;
+  }
+
+  .heading p {
+    font-size: 0.8rem;
+  }
+
+  .row > div {
+    flex: 1 0 100%;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjust input box width and font size for smaller screens */
+  .input {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .payOptions input[type="radio"],
+  .payOptions label {
+    width: 100%; /* Display one option per row on smaller screens */
+  }
+
+  .buttons {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
+
+  .buttons button {
+    width: 100%; /* Make buttons full width on smaller screens */
+    margin-bottom: 10px; /* Add some margin between buttons */
+  }
+}

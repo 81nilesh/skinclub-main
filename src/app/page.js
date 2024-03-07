@@ -17,22 +17,22 @@ export default function Home() {
   const [displayedComponent, setDisplayedComponent] = useState('Center');
 
   return (
-    <>    
+    <>
       <Header setDisplayedComponent={setDisplayedComponent} />
       <div className={styles.mainStyle}>
-      
-        <Sidebar />
-      
-        {/* <NavigationBar setDisplayedComponent={setDisplayedComponent} /> */}
-        
-        {displayedComponent === 'Center' && <Center />}
-{displayedComponent === 'CreateInvoice' && <CreateInvoice />}
-{displayedComponent === 'EditInvoice' && <EditInvoice />}
-{displayedComponent === 'Invoice' && <Invoice />}
 
-{displayedComponent === 'Payment' && <Payment />}
-{displayedComponent === 'Payments' && <Payments />}
-{displayedComponent === 'PopUp' && <PopUp />}
+        <Sidebar />
+
+        {/* <NavigationBar setDisplayedComponent={setDisplayedComponent} /> */}
+
+        {displayedComponent === 'Center' && <Center />}
+        {displayedComponent === 'CreateInvoice' && <CreateInvoice />}
+        {displayedComponent === 'EditInvoice' && <EditInvoice />}
+        {displayedComponent === 'Invoice' && <Invoice />}
+
+        {displayedComponent === 'Payment' && <Payment />}
+        {displayedComponent === 'Payments' && <Payments />}
+        {displayedComponent === 'PopUp' && <PopUp />}
 
 
       </div>
